@@ -62,6 +62,47 @@ Example use case:
 
 ---
 
+## Use Cases
+
+- E-commerce product extraction  
+- Competitor price analysis  
+- Web content Q&A  
+- Lightweight market intelligence  
+- Procurement data extraction  
+
+---
+
+## Future Improvements
+
+- Add support for multiple webpages  
+- Export structured output to CSV/Excel  
+- Add product deduplication  
+- Improve table extraction  
+- Add a Streamlit UI  
+- Deploy as an API  
+
+---
+
+## Limitations
+
+- Dynamic websites may require Selenium or Playwright  
+- Some product pages may block scraping requests  
+- LLM output quality depends on webpage structure and content quality  
+- Table formatting may vary depending on the source page  
+
+---
+
+## Disclaimer
+
+This project is intended for educational and research purposes only.  
+Always review and respect a website’s terms of service before scraping production websites.
+
+---
+
+## Author
+
+**Aditya Kulkarni**
+
 ## Project Structure
 
 ```bash
@@ -71,3 +112,4 @@ simple-rag-web-scraper/
 ├── requirements.txt                      # Dependencies
 ├── README.md                             # Project documentation
 └── .env                                  # API keys (not committed)
+
